@@ -48,7 +48,7 @@
   <attr name="hide_on_touch" format="boolean"/>
   <attr name="hide_during_ads" format="boolean"/>
   <attr name="auto_show" format="boolean"/>
-  <attr name="show_buffering" format="enum">
+  <attr name="mini_show_buffering" format="enum">
     <enum name="never" value="0"/>
     <enum name="when_playing" value="1"/>
     <enum name="always" value="2"/>
@@ -102,7 +102,7 @@
     <attr name="hide_on_touch"/>
     <attr name="hide_during_ads"/>
     <attr name="auto_show"/>
-    <attr name="show_buffering"/>
+    <attr name="mini_show_buffering"/>
     <attr name="keep_content_on_player_reset"/>
     <attr name="use_sensor_rotation"/>
     <attr name="player_layout_id"/>
@@ -141,7 +141,7 @@
     <attr name="hide_on_touch"/>
     <attr name="hide_during_ads"/>
     <attr name="auto_show"/>
-    <attr name="show_buffering"/>
+    <attr name="mini_show_buffering"/>
     <attr name="keep_content_on_player_reset"/>
     <attr name="use_sensor_rotation"/>
     <attr name="player_layout_id"/>
