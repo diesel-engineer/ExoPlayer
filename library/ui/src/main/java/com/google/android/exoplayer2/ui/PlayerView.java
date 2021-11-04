@@ -393,7 +393,7 @@ public class PlayerView extends FrameLayout implements AdsLoader.AdViewProvider 
         controllerHideOnTouch =
             a.getBoolean(R.styleable.PlayerView_hide_on_touch, controllerHideOnTouch);
         controllerAutoShow = a.getBoolean(R.styleable.PlayerView_auto_show, controllerAutoShow);
-        showBuffering = a.getInteger(R.styleable.PlayerView_miniapp_show_buffering, showBuffering);
+        showBuffering = a.getInteger(R.styleable.PlayerView_mini_show_buffering, showBuffering);
         keepContentOnPlayerReset =
             a.getBoolean(
                 R.styleable.PlayerView_keep_content_on_player_reset, keepContentOnPlayerReset);
